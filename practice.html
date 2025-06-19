@@ -55,17 +55,105 @@
             .tweet:hover{
                 box-shadow:2px 10px 8px rgba(0,0,0,0.2) ;
             }
+            .margin_padding
+            {    
+               margin-top:15px;
+               margin-right:30px;
+               margin-left:30px;
+               padding:15px 15px 15px 15px;
+               transition: padding 0.15s margin 0.15s;
+            }
+            .margin_padding:hover
+            {
+                padding:15px 45px 15px 45px;
+                margin-right:0px;
+                margin-left:0px;
+            }
+            .stretch
+            {
+                margin-top:15px;
+               margin-right:30px;
+               margin-left:30px;
+               padding:8px 15px 8px 15px;
+               cursor:pointer;
+               transition:padding 0.17s;
+            }
+            .stretch:active
+            {
+               padding:18px 40px 18px 40px;
+
+            }
+            .text1
+            {
+                /*i can just write font family in p*/
+                font-family: Arial;
+                margin-bottom:0px;
+                margin-top:0px;
+                line-height:30px;
+                width:350px;
+            }
+            .text2
+            {
+                font-family:Arial;
+                margin-top:5px;
+                color: rgb(127, 129, 130);
+            }
+            .div1
+            {
+                /*paragraphs have width too no need for div
+                to add multiple spaces between words, do margin left on span*/
+                margin-top:30px;
+                font-family:Arial;
+                width:300px;
+                color: rgb(127, 129, 130);
+            }
+            .div2
+            {
+                background-color: red;
+                padding:15px 15px 15px 15px;
+                text-align: center;
+                color:white;
+                font-family:Arial;
+                font-weight:bold;
+            }
+            .img1
+            {
+                width:50px;
+                height:50px;
+                margin-top:25px;
+            }
+            .span_ele:hover
+            {
+                text-decoration:underline;
+                cursor:pointer;
+            }
         </style>
     </head>
     <body>
         <a href="" target="_blank">
             welcome to amazon
-        </a>
+        </a> 
         <p>Nike Running shoes</p>
         <p>Paragraph takes the whole line</p>
         <button class="sub">SUBSCRIBE</button>
         <button class="join">Join</button>
-        <button class="tweet">Tweet</button>
-
+        <button class="tweet">Tweet</button> hover 
+        <br>
+        <button class="margin_padding">One</button>
+        <button class="margin_padding">One</button>
+        <button class="margin_padding">One</button> hover
+        <br>
+        <button class="stretch">One</button> click
+        <br>
+        <img src="https://img.freepik.com/premium-vector/3d-vector-youtube-logo_1016288-184.jpg?semt=ais_hybrid&w=740" class="img1">
+        <h2 class="text1">Talking Tech and AI with Google CEO Sundar Pichai!</h2>
+        <p class="text2">3.4M views &#183 6m months ago &#10003 </p>
+        <div class="div1">
+            <p>Talking tech and AI on the heels of Google I/O.Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!</p>
+        </div>
+        <div class="div2">
+            <p><strong>Shop</strong> early for the best selection.<span class="span_ele">Shop now&gt</span></p>
+        </div>
+        
     </body>
 </html>
