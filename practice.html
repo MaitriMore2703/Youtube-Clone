@@ -62,6 +62,7 @@
                 width:90px;
                 font-size: 20px;
                 font-weight: bold;
+                vertical-align:middle;
                 
             }
             .tweet:hover{
@@ -148,7 +149,43 @@
                 margin-right:400px;
                 border-radius:20px;
                 color:white;
-                font-family:Arial];
+                font-family:Arial;
+            }
+            .thumbnail
+            {
+                width:300px;
+                height:300px;
+                border-color: red;
+                /* height:400px; */
+                object-fit:cover;
+                border-width: 2px;
+                border-style:solid;
+                object-position:top;
+                border-radius: 150px;
+                margin-bottom: 50px;
+                vertical-align: middle;
+                margin-right:20px;
+            }
+            .tb1
+            {
+                padding:6px 15px 6px 10px;
+                font-size:15px;
+                font-family:Montserrat;
+                border-radius:5px;
+                border-color:rgb(176, 176, 176);
+                border-style:solid;
+
+            }
+            .tb2
+            {
+                padding:6px 15px 6px 10px;
+                font-size:15px;
+                font-family:Montserrat;
+                border-radius:13.5px;
+                box-shadow:0px 3px 10px rgba(0,0, 0, 0.2);
+                border:none;
+                vertical-align: middle;
+                margin-right:20px;
             }
         </style>
     </head>
@@ -180,5 +217,12 @@
         <p class="buy">Buy</p>
         <p class="google_fonts1">Practising Google fonts</p>
         <p class="google_fonts2">This is the same font in <u>different weight</u> </p>
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp"> 
+         <input class="tb2" type="text" placeholder="Search"><!--containing the image after setting h and w, can contain it too-->
+         <button class="tweet">Tweet</button> 
+        <br>
+        <!-- object fit -contain or cover , object position -->
+         <input class="tb1" type="text" placeholder="Search">
+        
     </body>
 </html>
