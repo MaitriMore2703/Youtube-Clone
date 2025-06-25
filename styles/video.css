@@ -5,6 +5,7 @@
 .thumbnail-row
 {
     margin-bottom: 14px;
+    position:relative;
 }
 .video-grid
 {
@@ -39,4 +40,17 @@
 .video-author
 {
     margin-bottom: 4px;
+}
+.video-time
+{
+    background-color: black;
+    color:white;
+    position:absolute;
+    right:15px;
+    bottom:15px;
+    font-family: Roboto;
+    font-weight:500;
+    padding:4px;
+    border-radius:2px;
+
 }

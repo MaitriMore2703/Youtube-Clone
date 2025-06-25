@@ -1,8 +1,17 @@
 .header
 {
     display:flex;
-    height:57px;
+    height:60px;
     justify-content: space-between;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(205, 201, 201);
+    z-index:1;
 }
 .left-section
 {
@@ -27,7 +36,6 @@
     justify-content: space-between;
     align-items: center;
     flex-shrink:0;
-   
 }
 .upload-icon,.notification-icon,.youtube-apps-icon
 {
@@ -96,4 +104,23 @@
 .search::placeholder{
     font-family: Roboto;
     font-size:16px;
+}
+.notification-icon-container
+{
+    position:relative;
+}
+.notification-count
+{
+    position:absolute;
+    top:-2px;
+    right:-5px;
+    background-color: rgb(197, 22, 22);
+    padding-right:6px;
+    padding-left:6px;
+    padding-top:1px;
+    padding-bottom:1px;
+    border-radius:11px;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
 }
