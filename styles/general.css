@@ -6,7 +6,10 @@ p{
 body
 {
     margin:0px;
-    padding-top:80px;
-    padding-left:80px;
+    padding-top:120px;
+    padding-left:130px;
     padding-bottom: 100px;
+    padding-right:35px;
+    background-color: rgb(250, 246, 246);
+    font-family: Roboto;
 }

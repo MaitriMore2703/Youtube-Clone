@@ -14,6 +14,20 @@
     column-gap: 20px;
     row-gap: 40px;
 }
+@media(min-width:1700px)
+{
+    .video-grid 
+    {
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+    }   
+}
+@media(max-width:1146px)
+{
+    .video-grid 
+    {
+        grid-template-columns:1fr 1fr ;
+    }   
+}
 .video-info-grid
 {
     display:grid;
@@ -28,13 +42,14 @@
 .video-title
 {
     font-weight:500;
-    font-size:14px;
+    font-size:20px;
     margin-bottom: 12px;
-    line-height: 20px;
+    line-height: 25px;
+
 }
 .video-author,.video-stats
 {
-    font-size: 12px;
+    font-size: 16px;
     color:  rgb(96, 96, 96);
 }
 .video-author
